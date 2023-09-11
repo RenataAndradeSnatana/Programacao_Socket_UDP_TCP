@@ -1,0 +1,26 @@
+
+Procedimento de execução das aplicações com protocolo UDP e TCP:
+
+Para executar cada aplicação através do VSCODE deve-se:
+
+1º Criar três terminal para cada aplicação;
+Criar um terminal novo;
+a)Acesse a pasta onde está a aplicação, através do terminal digitando cd nome_da_pasta onde estpa o arquivo que será executado;
+Escreva no terminal: code nome_do_arquivo.py 
+Faça isso para os arquivos de servidor de nome, servidor de aplicação e servidor cliente.
+b) Indicar que quer codar o código
+Vá no terminal de aplicação servidor de nome e digite: code nome_do_arquivo.py e der enter.
+Em seguida vá para o terminal de aplicação servidor de aplicação e digite: code nome_do_arquivo.py e der enter.
+E por fim  vá no termial de aplicação cliente e digite: code nome_do_arquivo.py
+
+2º Em cada aplicação deve-se executar numa seguência:
+Vá no terminal de aplicação servidor de nome e digite: python nome_do_arquivo.py e ao dar entre o código será
+executado. E a aplicação ficará conectada.
+Em seguida vá para o terminal de aplicação servidor de aplicação e digite: python nome_do_arquivo.py e ao dar entre o código será
+executado. E a aplicação ficará conectada.
+E por fim, vá no termial de aplicação cliente e digite: python nome_do_arquivo.py e ao dar entre o código será executado e então será
+solicitado ao usuário o tipo de operação e números os quais querem o resultado.
+
+Quando não quizer mais usar a aplicação da calculadora o usuário digita QUIT.
+
+Esse passo a passo serve para ambos aplicações UDP e TCP.
